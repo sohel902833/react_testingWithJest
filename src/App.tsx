@@ -1,12 +1,14 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Greet from "./components/Greet";
+import Greet from "./components/greet/Greet";
+import Application from "./components/application/Application";
 
 function App() {
   return (
     <div className="App">
       <Greet />
+      <Application />
     </div>
   );
 }
